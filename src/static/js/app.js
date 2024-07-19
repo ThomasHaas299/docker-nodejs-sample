@@ -63,7 +63,7 @@ function TodoListCard() {
                     onItemRemoval={onItemRemoval}
                 />
             ))}
-            <div className="text-center small">Version: 20240719.1408</div>
+            <div id="versionstring" className="text-center small">Version: 20240719.1424</div>
         </React.Fragment>
     );
 }
