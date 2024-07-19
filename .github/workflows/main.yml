@@ -3,8 +3,9 @@ name: Docker Image CI
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  # das bedeutet, dass schon beim blosen Pull-Request die gesamte Aktion ausgelöst wird, also noch vor dem merge.
+  # pull_request:
+  #  branches: [ "main" ]
 
 jobs:
 
