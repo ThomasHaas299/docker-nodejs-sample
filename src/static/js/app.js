@@ -53,7 +53,7 @@ function TodoListCard() {
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <p className="text-center">No items yet! Add one above!</p>
+                <p className="text-center">No items yet! Add one above ...</p>
             )}
             {items.map(item => (
                 <ItemDisplay
@@ -63,6 +63,7 @@ function TodoListCard() {
                     onItemRemoval={onItemRemoval}
                 />
             ))}
+            <div className="text-center small">Version: 20240719.1408</div>
         </React.Fragment>
     );
 }
