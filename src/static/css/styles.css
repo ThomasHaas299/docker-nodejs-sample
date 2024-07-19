@@ -37,3 +37,10 @@ body {
 button:focus {
     border: 1px solid #333;
 }
+
+#versionstring {
+    font-family: 'Courier New', Courier, monospace;
+    &:hover {
+        color: #ff9100;
+    }
+}
